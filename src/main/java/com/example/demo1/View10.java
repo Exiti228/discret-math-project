@@ -55,8 +55,29 @@ public class View10 extends goToButtons{
         return true;
     }
 
-    private boolean check_L(String to_check, int size) {
-        int[] a=new int[size];
+    private boolean check_L(String to_check, int n) {
+        //Created by Fedorov Andrey (Andrfed)
+        boolean[] v1 = new boolean[n];
+        for (int i=0;i<n;i++) {
+            v1[i] = to_check.charAt(i)=='0' ? false : true;
+        }
+        boolean[] p = new boolean[n];
+        for (int i=1;i<n;i++) {
+            p[i-1] = v1[i-1];
+            boolean[] v2 = new boolean[n-i];
+            for (int j=0;j<v2.length;j++) {
+                v2[j] = v1[j + i - 1] ^ v1[j + i];
+            }
+            for (int j=0;j<v2.length;j++) {
+                v1[j + i] = v2[j];
+            }
+        }
+        p[n-1] = v1[n-1];
+        for (int i=0;i<n;i++) {
+            if ((i & (i-1)) != 0 && p[i]) {
+                return false;
+            }
+        }
         return true;
     }
 
@@ -70,16 +91,14 @@ public class View10 extends goToButtons{
 
     @FXML
     private void onClickGetRandomVector() {
-        /*Random rand = new Random();
+        Random rand = new Random();
         var ans = new StringBuilder();
         VectorSize = rand.nextInt(2,4);
         int size = 1 << VectorSize;
         for (int i = 0; i < size; ++i) {
             ans.append(rand.nextInt(2));
         }
-        inputRandomVector.setText(ans.toString());*/
-        VectorSize = 2;
-        inputRandomVector.setText("1010");
+        inputRandomVector.setText(ans.toString());
     }
 
     @FXML

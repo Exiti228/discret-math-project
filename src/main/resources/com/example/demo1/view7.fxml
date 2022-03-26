@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.View7">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <AnchorPane prefHeight="50.0" prefWidth="548.0" style="-fx-background-color: E6E6E6;">
+            <children>
+                <Label layoutX="68.0" layoutY="4.0" prefHeight="43.0" prefWidth="452.0" text="Игра КНФ">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Line endX="362.0" endY="2.0" layoutX="199.0" layoutY="50.0" startX="-104.0" startY="2.0" />
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="261.0" prefWidth="560.0">
+            <children>
+                <AnchorPane layoutY="-25.0" prefHeight="281.0" prefWidth="87.0" style="-fx-background-color: E6E6E6;">
+                    <children>
+                        <Line endX="96.0" layoutX="1.0" layoutY="215.0" startX="2.0" />
+                        <Button fx:id="exit" layoutX="28.0" layoutY="237.0" mnemonicParsing="false" onAction="#onClickExit" style="-fx-background-color: A1A1A1;" text="Выход" />
+                        <Button fx:id="to2" onAction="#onTo2" layoutY="-1.0" mnemonicParsing="false" style="-fx-background-color: A1A1A1;" text="Задание 2" />
+                        <Button fx:id="to5" onAction="#onTo5" layoutY="43.0" mnemonicParsing="false" style="-fx-background-color: A1A1A1;" text="Задание 5" />
+                        <Button fx:id="to8" onAction="#onTo8" layoutY="91.0" mnemonicParsing="false" style="-fx-background-color: A1A1A1;" text="Задание 8" />
+                        <Button fx:id="to11" onAction="#onTo11" layoutY="141.0" mnemonicParsing="false" style="-fx-background-color: A1A1A1;" text="Задание 11" />
+                    </children>
+                </AnchorPane>
+                <Line endX="100.0" layoutX="-2.0" layoutY="254.0" startX="100.0" startY="-274.0" />
+            <Button fx:id="btnRandomVector" layoutX="108.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickGetRandomVector" prefHeight="34.0" prefWidth="163.0" text="Получить вектор функции" />
+            <Label fx:id="inputRandomVector" layoutX="280.0" layoutY="14.0" prefHeight="34.0" prefWidth="269.0" />
+            <TextField fx:id="inputKNF" layoutX="108.0" layoutY="59.0" onKeyReleased="#onClickVerify" prefHeight="34.0" prefWidth="442.0" promptText="Введите КНФ" />
+            <Label fx:id="outKNF" layoutX="108.0" layoutY="99.0" prefHeight="34.0" prefWidth="442.0" />
+            <Button fx:id="btnCheck" layoutX="108.0" layoutY="142.0" mnemonicParsing="false" onAction="#onClickCheck" prefHeight="34.0" prefWidth="86.0" text="Проверить" />
+            <Label fx:id="outCheck" layoutX="206.0" layoutY="142.0" prefHeight="34.0" prefWidth="98.0" />
+            </children>
+            <effect>
+                <Blend />
+            </effect>
+        </AnchorPane>
+    </children>
+</VBox>

@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class HelloApplication extends Application {
-    private String fileName = "hello-view.fxml";
+    private String fileName = "view1.fxml";
     private String titleName = "Application 1";
     static Stage stage = null;
 
@@ -44,9 +44,9 @@ public class HelloApplication extends Application {
 
 
     public void startWindow() throws IOException {
-        System.out.println(111);
+        System.out.println("Window init");
         if (stage == null) {
-            System.out.println(123);
+            System.out.println("Window create");
             stage = new Stage();
         }
 

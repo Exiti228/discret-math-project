@@ -76,9 +76,6 @@ public class View8 extends goToButtons{
             Image im = new Image(String.valueOf(file.getAbsoluteFile()));
             imageDNF.setImage(im);
             setRes.setText("");
-
-
-
         }
     }
     void rec(String vector, StringBuilder str) {
@@ -100,9 +97,6 @@ public class View8 extends goToButtons{
                 if (latex.length() != 0)
                     latex += "\\vee";
                 latex += add;
-               // str.reverse();
-
-
             }
             cur_pos++;
             return;

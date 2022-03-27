@@ -35,7 +35,7 @@ public class View7 extends goToButtons{
     private int solve_simple(String to_solve) {
         char tmp;
         int size=to_solve.length(), i=0;
-        boolean solv=false, solv_t=false;
+        boolean solv_t=false;
         while (i<size) {
             tmp=to_solve.charAt(i);
             if (tmp=='(') {
@@ -116,11 +116,11 @@ public class View7 extends goToButtons{
         }
         System.out.println(to_check);
         if (to_check.equals("None") || (size!=0 && comp==0 && !flag && !next_o )) {
-            outKNF.setText("Correct");
+            outKNF.setText("Правильный ввод.");
             outKNF.setTextFill(Color.GREEN);
         }
         else {
-            String errorMessage = "Error, invalid input";
+            String errorMessage = "Неправильный ввод!";
             outKNF.setText(errorMessage);
             outKNF.setTextFill(Color.RED);
         }
@@ -143,7 +143,7 @@ public class View7 extends goToButtons{
             res+=solve_simple(tmp1);
         }
         System.out.println(res);
-        if (res.equals(inputRandomVector.getText()) || (inputKNF.getText().equals("None") && inputRandomVector.getText().equals("1111"))) {
+        if (res.equals(inputRandomVector.getText()) || (inputKNF.getText().equals("Нет") && inputRandomVector.getText().equals("1111"))) {
             outCheck.setText("Правильно!");
             outCheck.setTextFill(Color.GREEN);
         }

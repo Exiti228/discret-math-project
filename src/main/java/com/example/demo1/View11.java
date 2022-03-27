@@ -2,15 +2,12 @@ package com.example.demo1;
 
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
 
 
 public class View11 extends goToButtons{
-
-
 
     @FXML
     private TextField inputArg;
@@ -21,12 +18,8 @@ public class View11 extends goToButtons{
     @FXML
     private TextField inputVector;
 
-
-
     @FXML
     private Label textRes;
-
-
 
     @FXML
     private void onClickCalc() {

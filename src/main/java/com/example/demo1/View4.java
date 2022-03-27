@@ -54,7 +54,7 @@ public class View4 extends goToButtons{
 
     @FXML
     void set0010() {
-        menu.setText("запрет по x2");
+        menu.setText("коимпликация");
         vector=("0010");
     }
 
@@ -66,7 +66,7 @@ public class View4 extends goToButtons{
 
     @FXML
     void set0100() {
-        menu.setText("запрет по x1");
+        menu.setText("обратная коимпликация");
         vector=("0100");
     }
 
@@ -78,7 +78,7 @@ public class View4 extends goToButtons{
 
     @FXML
     void set0110() {
-        menu.setText("исключающее или");
+        menu.setText("сложение");
         vector=("0110");
     }
 
@@ -108,7 +108,7 @@ public class View4 extends goToButtons{
 
     @FXML
     void set1011() {
-        menu.setText("импликация x2 к x1");
+        menu.setText("обратная импликация");
         vector=("1011");
     }
 
@@ -120,7 +120,7 @@ public class View4 extends goToButtons{
 
     @FXML
     void set1101() {
-        menu.setText("импликация x1 к x2");
+        menu.setText("импликация");
         vector=("1101");
     }
 

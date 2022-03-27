@@ -40,9 +40,6 @@ public class View5 extends goToButtons{
     private Label essVar;
 
     @FXML
-    private Button exit;
-
-    @FXML
     private Label setRes;
 
     @FXML
@@ -50,19 +47,7 @@ public class View5 extends goToButtons{
 
     @FXML
     private Label setVector;
-
-    @FXML
-    private Button to11;
-
-    @FXML
-    private Button to2;
-
-    @FXML
-    private Button to5;
-
-    @FXML
-    private Button to8;
-
+    
     @FXML
     private Label toLeft;
 

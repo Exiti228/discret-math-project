@@ -132,7 +132,7 @@ public class View4 extends goToButtons{
 
     @FXML
     void set1111() {
-        menu.setText("константа еденицы");
+        menu.setText("константа единицы");
         vector=("1111");
     }
 

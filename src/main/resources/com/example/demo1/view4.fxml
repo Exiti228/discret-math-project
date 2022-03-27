@@ -37,20 +37,20 @@
                     <children>
                         <Line endX="96.0" layoutX="1.0" layoutY="215.0" startX="2.0" />
                         <Button fx:id="exit" layoutX="28.0" layoutY="237.0" mnemonicParsing="false" onAction="#onClickExit" style="-fx-background-color: A1A1A1;" text="Выход" />
-                  <MenuButton layoutX="17.0" layoutY="55.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="66.0" style="-fx-font: normal 20px 'serif';" text="4">
+                  <MenuButton layoutX="17.0" layoutY="55.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="66.0" style="-fx-font: normal 17px 'serif';" text="4">
                     <items>
-                      <MenuItem mnemonicParsing="false" onAction="#onTo1" style="-fx-font: normal 20px 'serif';" text="1" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo2" style="-fx-font: normal 20px 'serif';" text="2" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo3" style="-fx-font: normal 20px 'serif';" text="3" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo4" style="-fx-font: normal 20px 'serif';" text="4" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo5" style="-fx-font: normal 20px 'serif';" text="5" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo6" style="-fx-font: normal 20px 'serif';" text="6" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo7" style="-fx-font: normal 20px 'serif';" text="7" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo8" style="-fx-font: normal 20px 'serif';" text="8" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo9" style="-fx-font: normal 20px 'serif';" text="9" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo10" style="-fx-font: normal 20px 'serif';" text="10" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo11" style="-fx-font: normal 20px 'serif';" text="11" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo12" style="-fx-font: normal 20px 'serif';" text="12" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo1" text="1" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo2" text="2" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo3" text="3" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo4" text="4" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo5" text="5" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo6" text="6" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo7" text="7" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo8" text="8" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo9" text="9" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo10" text="10" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo11" text="11" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo12" text="12" />
                     </items>
                   </MenuButton>
                   <Label layoutX="17.0" layoutY="5.0" prefHeight="20.0" prefWidth="66.0" text="Выбор" />
@@ -82,20 +82,20 @@
               <items>
                 <MenuItem mnemonicParsing="false" onAction="#set0000" text="константа нуля" />
                 <MenuItem mnemonicParsing="false" onAction="#set0001" text="конъюкция" />
-                <MenuItem mnemonicParsing="false" onAction="#set0010" text="запрет по x2" />
+                <MenuItem mnemonicParsing="false" onAction="#set0010" text="коимпликация" />
                 <MenuItem mnemonicParsing="false" onAction="#set0011" text="переменная x1" />
-                <MenuItem mnemonicParsing="false" onAction="#set0100" text="запрет по x1" />
+                <MenuItem mnemonicParsing="false" onAction="#set0100" text="обратная коимпликация" />
                 <MenuItem mnemonicParsing="false" onAction="#set0101" text="переменная x2" />
-                <MenuItem mnemonicParsing="false" onAction="#set0110" text="исключающее или" />
+                <MenuItem mnemonicParsing="false" onAction="#set0110" text="сложение" />
                 <MenuItem mnemonicParsing="false" onAction="#set0111" text="дизъюнкция" />
                 <MenuItem mnemonicParsing="false" onAction="#set1000" text="стрелка пирса" />
                 <MenuItem mnemonicParsing="false" onAction="#set1001" text="эквивалентность" />
                 <MenuItem mnemonicParsing="false" onAction="#set1010" text="инверсия x2" />
-                <MenuItem mnemonicParsing="false" onAction="#set1011" text="импликация x2 к x1" />
+                <MenuItem mnemonicParsing="false" onAction="#set1011" text="обратная импликация" />
                 <MenuItem mnemonicParsing="false" onAction="#set1100" text="инверсия x1" />
-                <MenuItem mnemonicParsing="false" onAction="#set1101" text="импликация x1 к x2" />
+                <MenuItem mnemonicParsing="false" onAction="#set1101" text="импликация" />
                 <MenuItem mnemonicParsing="false" onAction="#set1110" text="штрих шеффера" />
-                <MenuItem mnemonicParsing="false" onAction="#set1111" text="константа еденицы" />
+                <MenuItem mnemonicParsing="false" onAction="#set1111" text="константа единицы" />
               </items>
             </MenuButton>
             </children>

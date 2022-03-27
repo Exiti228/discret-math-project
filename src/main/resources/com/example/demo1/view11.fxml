@@ -63,20 +63,20 @@
                     <children>
                         <Line endX="96.0" layoutX="1.0" layoutY="215.0" startX="2.0" />
                         <Button fx:id="exit" layoutX="28.0" layoutY="237.0" mnemonicParsing="false" onAction="#onClickExit" style="-fx-background-color: A1A1A1;" text="Выход" />
-                  <MenuButton layoutX="17.0" layoutY="55.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="66.0" style="-fx-font: normal 20px 'serif';" text="11">
+                  <MenuButton layoutX="17.0" layoutY="55.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="66.0" style="-fx-font: normal 17px 'serif';" text="11">
                     <items>
-                      <MenuItem mnemonicParsing="false" onAction="#onTo1" style="-fx-font: normal 20px 'serif';" text="1" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo2" style="-fx-font: normal 20px 'serif';" text="2" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo3" style="-fx-font: normal 20px 'serif';" text="3" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo4" style="-fx-font: normal 20px 'serif';" text="4" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo5" style="-fx-font: normal 20px 'serif';" text="5" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo6" style="-fx-font: normal 20px 'serif';" text="6" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo7" style="-fx-font: normal 20px 'serif';" text="7" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo8" style="-fx-font: normal 20px 'serif';" text="8" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo9" style="-fx-font: normal 20px 'serif';" text="9" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo10" style="-fx-font: normal 20px 'serif';" text="10" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo11" style="-fx-font: normal 20px 'serif';" text="11" />
-                      <MenuItem mnemonicParsing="false" onAction="#onTo12" style="-fx-font: normal 20px 'serif';" text="12" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo1" text="1" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo2" text="2" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo3" text="3" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo4" text="4" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo5" text="5" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo6" text="6" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo7" text="7" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo8" text="8" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo9" text="9" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo10" text="10" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo11" text="11" />
+                      <MenuItem mnemonicParsing="false" onAction="#onTo12" text="12" />
                     </items>
                   </MenuButton>
                   <Label layoutX="17.0" layoutY="5.0" prefHeight="20.0" prefWidth="66.0" text="Выбор" />
